@@ -76,8 +76,9 @@ body {
     background-repeat:   no-repeat;
     background-position: center center;  
 }
+
 .front-page{
-     background:url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") center center;
+  background:url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -135,17 +136,17 @@ body {
 }
 
 #portfolio {
-    width:88%;
-    padding:5% 6%;    
-    border-radius:0px 340px 340px 0px;
-    background:url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") center center;
-        background-size:cover !important;
-
+    width: 100%;
+    height: auto;
+    text-align: center;
+     /* background:url("https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80")no-repeat center center fixed;; */
+    background-size:cover !important;
 }
 
 #portfolio div {
     font-size:20px;
 }
+
 
 #work h1 span {
     margin:10px 20px;
@@ -157,15 +158,6 @@ body {
     border-bottom:4px solid #000;
     cursor:pointer;
 }
-#portfolio div p{
-    font-size:55px;
-    background:url("https://images.unsplash.com/photo-1550684656-96eda9e5c632?&w=1634") center center;
-    -webkit-background-clip:text;
-    background-clip:text;
-    -webkit-text-fill-color: transparent;
-    background-size:cover !important;
-    font-family: 'Poppins', sans-serif;
-}
 
 #web {
     columns:2;
@@ -173,8 +165,9 @@ body {
 
 .project {
     width:515px;
+    text-align: left;
     height:auto;
-    margin:3vh 25px;
+    margin: 25px;
     display:inline-block;
     padding:4vh 28px;
     color:#282828;
@@ -250,8 +243,55 @@ body {
     padding:10% 5%;
 }
 
+.table {
+    align-items: center;
+    width: 100%;
+
+}
 .table tr td {
+    align-items: center;
     padding:25px;
     margin:10px 0px;
     display:inline-block;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
