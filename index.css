@@ -147,7 +147,6 @@ body {
     font-size:20px;
 }
 
-
 #work h1 span {
     margin:10px 20px;
     border-bottom:4px solid transparent;
@@ -229,18 +228,15 @@ body {
     color:#bbbbbb;
 }
 
-#contact {
-    width:100%;
-}
-
 #bottom-links {
-    margin:20px 0px;
     text-align: center;
 }
 
 #bottom-links a {
     color: rgb(161, 159, 159);
     padding:10% 5%;
+      vertical-align: middle;
+
 }
 
 .table {
