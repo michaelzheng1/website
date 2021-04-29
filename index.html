@@ -23,9 +23,10 @@
             <div class="container">
                 <div id="top-navbar">
                     <div id="links" class="animated bounceInDown" style="animation-delay:0s;">
+                        <a href="#work">Work</a>
                         <a href="#technical-skills">Skills</a>
                         <a href="#education">Education</a>
-                        <a href="#work">Projects</a>
+                        <a href="#project">Projects</a>
                     </div>
                 </div>
             </div>
@@ -36,39 +37,74 @@
     </div>
     <div id="portfolio">
         <a href="javascript:" id="return-to-top"> <i class="fas fa-chevron-up fa-2x"></i></i></a>
+        <div id="work">
+            <div>
+                <p>
+                    <h1><i class="fas fa-briefcase"></i> Work Experience</h1>
+                    <h2>Resume</h2>
+                    <div class="descrip">
+                        <table class="table">
+                            Tier 1 Consulting Group<br>
+                            Junior Programmer Analyst
+                        </table>
+                        <br><br>
+                        <table class="table">
+                            Groove Commerce<br>
+                            Web Developement Intern
+                        </table>
+
+                        <br><br>
+                        <table class="table">
+                            US Army Reserve<br>
+                            94F Computer/Detection Systems Repairer
+                        </table>
+
+                        <h2>Tools and Technologies</h2>
+                        <table class="table">
+                            <tr>
+                                <td>Docker</td>
+                                <td>Kubernetes</td>
+                                <td>AWS</td>
+                                <td>MongoDB</td>
+                                <td>Azure</td>
+                                <td>Terraform</td>
+                            </tr>
+                        </table>
+                        <h2>Certification</h2>
+                        <table class="table">
+                            <tr>
+                                <td>Secret Clearance</td>
+                                <td>CERTTEC Basic Electricity & Electronic AC/DC certification</td>
+                            </tr>
+                        </table>
+                    </div>
+                </p>
+            </div>
+        </div>
         <div id="technical-skills">
             <div>
                 <p>
                     <h1><i class="fas fa-code"></i> Technical Skills</h1>
                     <h2>Programming Languages</h2>
                     <div class="descrip">
-                        <h3>Proficient:</h3>
                         <table class="table">
                             <tr>
-                                <td>HTML</td>
-                                <td>CSS</td>
-                                <td>JavaScript</td>
                                 <td>Java</td>
-                                <td>C</td>
-                            </tr>
-                        </table>
-                        <h3>Basic:</h3>
-                        <table class="table">
-                            <tr>
-                                <td>Python</td>
-                                <td>OCaml</td>
                                 <td>React</td>
-                                <td>MIPS</td>
-                                <td>SQL</td>
+                                <td>JavaScript</td>
+                                <td>Golang</td>
+                                <td>CSS</td>
                             </tr>
                         </table>
                         <h2>Tools and Technologies</h2>
                         <table class="table">
                             <tr>
-                                <td>Wireshark</td>
-                                <td>GDB</td>
-                                <td>Matlab</td>
-                                <td>Andriod Studio</td>
+                                <td>Docker</td>
+                                <td>Kubernetes</td>
+                                <td>AWS</td>
+                                <td>MongoDB</td>
+                                <td>Azure</td>
+                                <td>Terraform</td>
                             </tr>
                         </table>
                         <h2>Certification</h2>
@@ -86,76 +122,79 @@
             <h1><i class="fas fa-university"></i> Education</h1>
             University of Maryland, College Park, MD<br><br>
             Bachelor of Science, Computer Science<br><br>
-            Anticipated Date of Graduation: December 2019
+            Date of Graduation: December 2019
         </div>
-        <div id="work">
+        <div id="project">
             <h1><br><i class="fas fa-project-diagram"></i> Projects</h1>
             <div id="web">
-                <div class="project">
-                    <h1>Chat App</h1>
-                    <h3> A chat app created with React and Chatkit. It consists of a group chat, a “Who’s online” list,
-                        and
-                        typing indicators.</h3>
-                    <br>
-                    <img src="https://github.com/michaelzheng1/chat-react/blob/master/images/chat.gif?raw=true"
-                        style="width:500px;height:300px;">
-                    <a href="https://github.com/michaelzheng1/chat-react" target="_blank"><button><i
-                                class="fas fa-code right-arrow"></i> code</button></a>
-                </div>
+                <div class="project-container">
+                    <div class="project">
+                        <h1>Ravenous</h1>
+                        <h3>
+                            A website where users can search, view and sort through restaurants with the Yelp API. Must
+                            enter both inputs.
+                        </h3>
+                        <img src="./gif/ravenous.gif" class="image-container">
 
-                <div class="project">
-                    <h1>Ravenous</h1>
-                    <h3>
-                        A website where users can search, view and sort through restaurants with the Yelp API. Must
-                        enter both inputs.
-                    </h3>
-                    <img src="./gif/ravenous.gif" style="width:500px;height:300px;">
+                        <a href="https://github.com/michaelzheng1/ravenous" target="_blank"><button><i
+                                    class="fas fa-code right-arrow"></i> code</button></a>
 
-                    <a href="https://github.com/michaelzheng1/ravenous" target="_blank"><button><i
-                                class="fas fa-code right-arrow"></i> code</button></a>
-                    <a href="https://michaelzheng1.github.io/ravenous/" target="_blank"><button>visit <i
-                                class="fas fa-long-arrow-alt-right right-arrow"></i></button></a>
-
-                </div>
-                <div class="project">
-                    <h1>Bittorrent</h1>
-                    <h3>
-                        An experimental BitTorrent client implemented in Java. The client is able to interoperate with
-                        official BitTorrent client.
+                    </div>
+                    <div class="project">
+                        <h1>Bittorrent</h1>
+                        <h3>
+                            An experimental BitTorrent client implemented in Java. The client is able to interoperate
+                            with
+                            official BitTorrent client.
+                            <br>
+                        </h3>
+                        <img src="./gif/bittorrent.gif" class="image-container">
+                        <a href="https://github.com/michaelzheng1/bittorrent" target="_blank"><button><i
+                                    class="fas fa-code right-arrow"></i> code</button></a>
+                    </div>
+                    <div class="project">
+                        <h1>Word Search</h1>
+                        <h3>
+                            A Java program that takes an ASCII text file and delivers the word found with
+                            the location in the grid.<br><br>
+                        </h3>
+                        <img src="https://github.com/michaelzheng1/word-search/blob/master/word-search/gif/word-search.gif?raw=true"
+                            class="image-container">
+                        <a href="https://github.com/michaelzheng1/word-search" target="_blank"><button><i
+                                    class="fas fa-code right-arrow"></i> code</button></a>
+                    </div>
+                    <div class="project">
+                        <h1>Bank/ATM</h1>
+                        <h3>
+                            A C program that stimulates a bank and an ATM system. The program routes messages between
+                            the
+                            ATM and the bank.<br><br>
+                        </h3>
+                        <img src="./gif/bank.gif" class="image-container">
+                        <a href="https://github.com/michaelzheng1/bank" target="_blank"><button><i
+                                    class="fas fa-code right-arrow"></i> code</button></a>
+                    </div>
+                    <div class="project">
+                        <h1>Chat App</h1>
+                        <h3> A chat app created with React and Chatkit. It consists of a group chat, a “Who’s online”
+                            list,
+                            and
+                            typing indicators.</h3>
                         <br>
-                    </h3>
-                    <img src="./gif/bittorrent.gif" style="width:500px;height:300px;">
-                    <a href="https://github.com/michaelzheng1/bittorrent" target="_blank"><button><i
-                                class="fas fa-code right-arrow"></i> code</button></a>
+                        <img src="https://github.com/michaelzheng1/chat-react/blob/master/images/chat.gif?raw=true"
+                            class="image-container">
+                        <a href="https://github.com/michaelzheng1/chat-react" target="_blank"><button><i
+                                    class="fas fa-code right-arrow"></i> code</button></a>
+                    </div>
                 </div>
-                <div class="project">
-                    <h1>Word Search</h1>
-                    <h3>
-                        A Java program that takes an ASCII text file and delivers the word found with
-                        the location in the grid.<br><br>
-                    </h3>
-                    <img src="https://github.com/michaelzheng1/word-search/blob/master/word-search/gif/word-search.gif?raw=true"
-                        style="width:500px;height:300px;">
-                    <a href="https://github.com/michaelzheng1/word-search" target="_blank"><button><i
-                                class="fas fa-code right-arrow"></i> code</button></a>
-                </div>
-                <div class="project">
-                    <h1>Bank/ATM</h1>
-                    <h3>
-                        A C program that stimulates a bank and an ATM system. The program routes messages between the
-                        ATM and the bank.<br><br>
-                    </h3>
-                    <img src="./gif/bank.gif" style="width:500px;height:300px;">
-                    <a href="https://github.com/michaelzheng1/bank" target="_blank"><button><i
-                                class="fas fa-code right-arrow"></i> code</button></a>
-                </div>
+
             </div>
 
         </div>
 
     </div>
     <div id="bottom-links">
-        <a href="mailto:mzheng1@terpmail.umd.edu"><i class="fas fa-envelope fa-2x"> </i>
+        <a href="mailto:michael.zheng.personal@gmail.com"><i class="fas fa-envelope fa-2x"> </i>
         </a>
         <a href="https://github.com/michaelzheng1">
             <i class="fab fa-github fa-2x"></i>
